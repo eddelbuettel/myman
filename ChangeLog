@@ -1,0 +1,11 @@
+2026-07-19  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION: New package
+	* NAMESPACE: Idem
+	* R/myman.R: Idem
+	* man/myman.Rd: Idem
+	* inst/myman/myman.csv: Idem
+	* inst/raw/*: Idem
+	* README.md: Idem
+	* .github/workflows/ci.yaml: Idem
+

@@ -1,6 +1,10 @@
 
 ## myman: Sequence of posts by Kevin Kruse starting with 'My man ...'
 
+[![CI](https://github.com/eddelbuettel/myman/workflows/ci/badge.svg)](https://github.com/eddelbuettel/myman/actions?query=workflow%3Aci)
+[![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.gnu.org/licenses/gpl-2.0.html) 
+[![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/myman)](https://github.com/eddelbuettel/myman)
+
 ### Motivation
 
 Starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing array of BlueSky replies to
