@@ -1,0 +1,7 @@
+# tinyrox says don't edit this manually, but it can't stop you!
+
+export(myman)
+
+S3method(print,myman)
+
+importFrom(utils,read.csv)
