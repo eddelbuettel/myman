@@ -10,8 +10,8 @@
 ##' Function to display a randomly chosen 'my man' skeet by Kevin Kruse
 ##'
 ##' This function displays a randomly chosen line from the included
-##' data set of 'my man' skeets by Kevin Kruse posted on Bluesky during July 2026
-##' in replies to the initial post
+##' data set of over three hundred thirty 'my man' skeets by Kevin Kruse posted on Bluesky
+##' during two days in July 2026 in replies to the initial post
 ##' \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g}.
 ##' @title Display a Random 'my man' Skeet by Kevin Kruse
 ##' @param ind Optional index of a quote; if missing a random value is sampled

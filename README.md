@@ -3,12 +3,14 @@
 
 [![CI](https://github.com/eddelbuettel/myman/workflows/ci/badge.svg)](https://github.com/eddelbuettel/myman/actions?query=workflow%3Aci)
 [![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.gnu.org/licenses/gpl-2.0.html) 
+[![r-universe](https://eddelbuettel.r-universe.dev/badges/myman)](https://eddelbuettel.r-universe.dev/myman)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/myman)](https://github.com/eddelbuettel/myman)
 
 ### Motivation
 
-Starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing array of BlueSky replies to
-[an initial post of his](https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g)
+During one and half days starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing
+array of over three hundred thirty BlueSky replies to [an initial post of
+his](https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g) 
 featuring a certain government figure. All posts start with "My man ..." and make for excellent input
 to a `fortunes`-like package. So this small package obliges and offers a random draw each time its `myman()`
 function is called.  The overall package structure follows package `fortunes`, and `atrrr` was used to
