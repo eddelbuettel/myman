@@ -1,3 +1,13 @@
+2026-07-21  Dirk Eddelbuettel  <edd@debian.org>
+
+	* raw/myman_2026-07-21-09-24.csv: Updated with seventeen new ones
+	* raw/myman_2026-07-21-09-24.rds: Idem
+	* inst/myman/myman.csv: Idem
+
+	* raw/fetchPosts.R: Posts are now orderd by increasing 'created_at'
+	time; switch timestamp to all-hyphen-no-colon
+	* raw/*: Renamed files
+
 2026-07-19  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION: New package
@@ -5,6 +15,6 @@
 	* R/myman.R: Idem
 	* man/myman.Rd: Idem
 	* inst/myman/myman.csv: Idem
-	* inst/raw/*: Idem
+	* raw/*: Idem
 	* README.md: Idem
 
