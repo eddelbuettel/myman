@@ -9,7 +9,7 @@
 ### Motivation
 
 During one and half days starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing
-array of over three hundred thirty BlueSky replies to [an initial post of
+array of over three hundred fourty BlueSky replies to [an initial post of
 his](https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g) 
 featuring a certain government figure. All posts start with "My man ..." and make for excellent input
 to a `fortunes`-like package. So this small package obliges and offers a random draw each time its `myman()`
@@ -19,11 +19,11 @@ function is called.  The overall package structure follows package `fortunes`, a
 ### Example
 
 ```{r}
-R> library(myman)                       # load the package
-R> set.seed(1)                          # so that this is predictable
-R> myman()
-My man looks like that stripper really likes him.
-R>
+> library(myman)                       # load the package
+> set.seed(1)                          # so that this is predictable
+> myman()
+My man looks like Old Sheldon.
+>
 ```
 
 ### Package Status
@@ -35,7 +35,7 @@ Complete and functional, no dependencies, passes checks.
 The package is at this point only on GitHub so one can rely on the `remotes` package to do
 
 ```{r}
-R> remotes::install_github("eddelbuettel/myman")
+> remotes::install_github("eddelbuettel/myman")
 ```
 
 ### Acknowledgements

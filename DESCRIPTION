@@ -1,16 +1,16 @@
 Package: myman
 Type: Package
-Title: Draw From July 2026 Sequence of Posts by Kevin Kruse Starting with 'My Man'
-Version: 0.0.1
-Date: 2026-07-19
-Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org",
+Title: Draw from Sequence of 'My Man' Posts by Kevin Kruse
+Version: 0.0.1.1
+Date: 2026-07-21
+Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre", "cph"), email = "edd@debian.org",
                   comment = c(ORCID = "0000-0001-6419-907X"))
 Description: Starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing
  array of BlueSky replies to an initial post of his featuring a certain government figure:
  \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g}. All
- posts start with "My man ..." and make for excellent input to a 'fortunes'-like package. So this
- small package obliges and offers a random draw each time its 'myman()' function is called.
- The overall package structure follows package `fortunes`, and `atrrr` was used to (bulk-)retrieve
+ posts start with 'My man ...' and make for excellent input to a 'fortunes'-like package. So this
+ small package obliges and offers a random draw each time its myman() function is called.
+ The overall package structure follows package 'fortunes', and 'atrrr' was used to (bulk-)retrieve
  posts. Neither package is required to run this package to display random selections.
 URL: https://github.com/eddelbuettel/myman, https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g
 BugReports: https://github.com/eddelbuettel/myman
