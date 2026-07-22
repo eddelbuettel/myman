@@ -8,8 +8,8 @@
 
 ### Motivation
 
-During one and half days starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing
-array of over three hundred fourty BlueSky replies to [an initial post of
+Starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing
+array of over four hundred fifty BlueSky replies to [an initial post of
 his](https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g) 
 featuring a certain government figure. All posts start with "My man ..." and make for excellent input
 to a `fortunes`-like package. So this small package obliges and offers a random draw each time its `myman()`
