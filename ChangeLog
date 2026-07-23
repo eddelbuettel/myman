@@ -1,9 +1,22 @@
+2026-07-23  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll micro version and date
+	* README.md: Update total count (now at 560)
+	* R/myman.R: Idem; add simple text match lookup
+	* man/myman.Rd: Regenerated
+
+	* raw/myman_2026-07-23-08-44.csv: Updated with 102 new ones
+	* raw/myman_2026-07-23-08-44.rds: Idem
+	* inst/myman/myman.csv: Idem
+	* raw/fetchPosts.R: Filter out (one) '\n' in posts
+
 2026-07-22  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Roll micro version and date
 	* README.md: Update total count (now at 458)
 	* R/myman.R: Small edit to help page
 	* man/myman.Rd: Regenerated
+
 	* raw/myman_2026-07-22-07-22.csv: Updated with 112 new ones
 	* raw/myman_2026-07-22-07-22.rds: Idem
 	* inst/myman/myman.csv: Idem

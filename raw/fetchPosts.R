@@ -15,4 +15,5 @@ now <- format(Sys.time(), "%F-%H-%M")
 saveRDS(mm, file=paste0("myman_", now, ".rds"))
 txt <- mm[, "text"]
 colnames(txt) <- "post"
-write.csv(txt, file=paste0("myman_", now, ".csv"), quote=TRUE, row.names=FALSE)
+filtered <- data.frame(post = gsub("\\n", "", txt[,"post",drop=TRUE]))
+write.csv(filtered, file=paste0("myman_", now, ".csv"), quote=TRUE, row.names=FALSE)

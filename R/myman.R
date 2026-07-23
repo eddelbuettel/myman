@@ -1,7 +1,7 @@
 
-.mm.env <- new.env()
+mm.env <- new.env()
 
-.read.mm <- function() {
+read.mm <- function() {
     filename <- system.file("myman", "myman.csv", package="myman")
     if (!file.exists(filename)) stop("Hm, file", filename, "is missing.", call.=FALSE)
     data <- read.csv(filename)
@@ -10,7 +10,7 @@
 ##' Function to display a randomly chosen 'my man' skeet by Kevin Kruse
 ##'
 ##' This function displays a randomly chosen line from the included
-##' data set of over four hundred fifty 'my man' skeets by Kevin Kruse posted on Bluesky
+##' data set of five hundred sixty 'my man' skeets by Kevin Kruse posted on Bluesky
 ##' starting in July 2026 in replies to the initial post
 ##' \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g}.
 ##' @title Display a Random 'my man' Skeet by Kevin Kruse
@@ -24,12 +24,14 @@
 ##' myman()
 ##' @export
 myman <- function(ind) {
-    if (is.null(.mm.env$mm.data)) .mm.env$mm.data <- .read.mm()
-    mm.data <- .mm.env$mm.data
+    if (is.null(mm.env$mm.data)) mm.env$mm.data <- read.mm()
+    mm.data <- mm.env$mm.data
 
     if (missing(ind)) {
         n <- nrow(mm.data)
         ind <- sample(1:n, 1)
+    } else if (is.character(ind)) {
+        ind <- grep(ind, mm.data[,"post"])
     }
     v <- mm.data[ind,"post"]
     class(v) <- "myman"
@@ -42,6 +44,7 @@ myman <- function(ind) {
 ##' @param ... Other optional arguments
 ##' @exportS3Method myman::print
 print.myman <- function(x, width = NULL, ...) {
+    if (length(x) == 0) return(invisible())
     if (is.null(width)) width <- 0.9 * getOption("width")
     if (width < 10) stop("'width' must be greater than 10", call.=FALSE)
     invisible(sapply(strwrap(paste0(x, "."), width), cat, "\n"))
