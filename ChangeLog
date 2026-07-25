@@ -1,3 +1,14 @@
+2026-07-25  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll micro version and date
+	* README.md: Update total count (now at 698)
+	* R/myman.R: Idem
+	* man/myman.Rd: Regenerated
+
+	* raw/myman_2026-07-25-13-56.csv: Updated with 53 new ones
+	* raw/myman_2026-07-25-13-56.rds: Idem
+	* inst/myman/myman.csv: Idem
+
 2026-07-24  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Roll micro version and date
