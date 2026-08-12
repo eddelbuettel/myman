@@ -1,18 +1,20 @@
 Package: myman
 Type: Package
 Title: Draw from Sequence of 'My Man' Posts by Kevin Kruse
-Version: 0.0.2
-Date: 2026-07-25
+Version: 0.0.2.1
+Date: 2026-08-12
 Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre", "cph"), email = "edd@debian.org",
                   comment = c(ORCID = "0000-0001-6419-907X"))
 Description: Starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing
  array of BlueSky replies to an initial post of his featuring a certain government figure:
- <https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g>. All
- posts start with 'My man ...' and make for excellent input to a 'fortunes'-like package. So this
- small package obliges and offers a random draw each time its myman() function is called.
- The overall package structure follows package 'fortunes', and 'atrrr' was used to (bulk-)retrieve
- posts. Neither package is required to run this package to display random selections.
-URL: https://github.com/eddelbuettel/myman, https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g
+ <https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g>. This lasted a week
+ and generated nearly seven hundred posts. A second wave started on August 12, 2026, with this post:
+ <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a>. All posts from both series
+ start with 'My man ...' and make for excellent input to a 'fortunes'-like package. So this small
+ package obliges and offers a random draw each time its myman() function is called.  The overall
+ package structure follows package 'fortunes', and 'atrrr' was used to (bulk-)retrieve
+ posts. Neither package is required to run this package to display random selections. 
+URL: https://github.com/eddelbuettel/myman, https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g, https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a
 BugReports: https://github.com/eddelbuettel/myman
 License: GPL (>= 2)
 Encoding: UTF-8
