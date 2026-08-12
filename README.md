@@ -8,13 +8,16 @@
 
 ### Motivation
 
-Starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing
-array of over six hundred ninety eight BlueSky replies to [an initial post of
-his](https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g) 
-featuring a certain government figure. All posts start with "My man ..." and make for excellent input
-to a `fortunes`-like package. So this small package obliges and offers a random draw each time its `myman()`
-function is called.  The overall package structure follows package `fortunes`, and `atrrr` was used to
-(bulk-)retrieve posts. Neither package is required to run this package to display random selections.
+Starting on the afternoon of July 17, 2026, and lasting for one week initially, Kevin Kruse fired
+off an astonishing array of over six hundred ninety eight BlueSky replies to [an initial post of
+his](https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g) featuring a
+certain government figure. On August 12, 2026, a second wave started [with this
+post](https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a) aiming at another
+government figure. (There were also two stray post from the interim period.) All posts start with
+"My man ..." and make for excellent input to a `fortunes`-like package. So this small package
+obliges and offers a random draw each time its `myman()` function is called.  The overall package
+structure follows package `fortunes`, and `atrrr` was used to (bulk-)retrieve posts. Neither package
+is required to run this package to display random selections.
 
 ### Example
 
