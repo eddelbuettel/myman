@@ -1,3 +1,10 @@
+2026-08-12  Dirk Eddelbuettel  <edd@debian.org>
+
+	* raw/myman_2026-08-12-12-24.csv: Updated with 100 new ones
+	* raw/myman_2026-08-12-12-24.rds: Idem
+	* inst/myman/myman.csv: Idem
+	* raw/append.sh: One-line helper script to update myman.csv
+
 2026-07-30  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Version 0.0.2
