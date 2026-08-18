@@ -1,3 +1,16 @@
+2026-08-18  Dirk Eddelbuettel  <edd@debian.org>
+
+	* R/myman.R: Updated count (now at 916)
+	* man/myman.Rd: Regenerated
+
+	* raw/myman_2026-08-18-08-42.csv: Updated with 79 new ones
+	* raw/myman_2026-08-18-08-42.rds: Idem
+	* inst/myman/myman.csv: Idem
+
+	* raw/fetchPosts.sh: Accommodate third block of posts
+	* raw/append.sh: Idem
+	* raw/blocks.R: Idem
+
 2026-08-13  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Roll micro version and date

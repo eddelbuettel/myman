@@ -24,11 +24,13 @@ which an S3 print method will be invoked.
 }
 \description{
 This function displays a randomly chosen line from the included
-data set of eight hundred thirty seven 'my man' skeets by Kevin Kruse posted on Bluesky
+data set of nine hundred sixteen 'my man' skeets by Kevin Kruse posted on Bluesky
 starting in July 2026 in replies to the initial post
 \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
-and in August 2026 in replies to
-\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a}
+and in August 2026 starting
+\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a} as well as
+starting with
+\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j}.
 }
 \examples{
 set.seed(123)
