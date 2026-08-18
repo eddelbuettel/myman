@@ -13,6 +13,9 @@
 	* raw/append.sh: Idem
 	* raw/blocks.R: Idem
 
+	* raw/*: Deleted redundant csv and rds files included in other,
+	leaving three key source pairs
+
 2026-08-13  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Roll micro version and date
