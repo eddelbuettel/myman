@@ -1,5 +1,7 @@
 2026-08-18  Dirk Eddelbuettel  <edd@debian.org>
 
+	* DESCRIPTION (Version, Date): Roll micro version and date
+
 	* R/myman.R: Updated count (now at 916)
 	* man/myman.Rd: Regenerated
 
