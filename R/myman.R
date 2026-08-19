@@ -56,7 +56,7 @@ print.myman <- function(x, width = NULL, ...) {
     mapply(\(x, m, d) cat(paste0(strwrap(x, width), collapse="\n"),
                           ".\n\t -- about ", m, " on ", d, "\n\n", sep=""),
            x = x,
-           m = attr(x, "man"),
+           m = as.character(attr(x, "man")),
            d = format(as.Date(attr(x, "created"))))
 }
 
