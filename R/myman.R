@@ -3,8 +3,8 @@ mm.env <- new.env()
 
 read.mm <- function() {
     filename <- system.file("myman", "myman.csv", package="myman")
-    if (!file.exists(filename)) stop("Hm, file", filename, "is missing.", call.=FALSE)
-    data <- read.csv(filename)
+    if (!file.exists(filename)) stop("Hm, file", filename, "is missing.", call. = FALSE)
+    data <- read.csv(filename, colClasses=c("character", "POSIXct", "factor"))
 }
 
 ##' Function to display a randomly chosen 'my man' skeet by Kevin Kruse
