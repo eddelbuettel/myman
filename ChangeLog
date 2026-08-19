@@ -1,5 +1,7 @@
 2026-08-19  Dirk Eddelbuettel  <edd@debian.org>
 
+	* DESCRIPTION (Version, Date): Version 0.0.3
+
 	* R/myman.R (myman): Return creation date and 'man' as attributes
 	(print.myman): Format also showing date and target 'man'
 	(read.mm): Supplying colClasses as a convenience
