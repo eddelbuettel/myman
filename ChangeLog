@@ -1,5 +1,8 @@
 2026-08-19  Dirk Eddelbuettel  <edd@debian.org>
 
+	* R/myman.R (myman): Return creation date and 'man' as attributes
+	(print.myman): Format also showing date and target 'man'
+
 	* raw/blocks.R: New processor to record creation date and 'my man'
 	* raw/allposts_2026-08-18-11-21.csv: New tree-column data set
 	* inst/myman/myman.csv: Idem

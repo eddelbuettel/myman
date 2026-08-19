@@ -39,6 +39,8 @@ myman <- function(ind) {
     }
     v <- mm.data[ind,"post"]
     class(v) <- "myman"
+    attr(v, "created") <- mm.data[ind,"created"]
+    attr(v, "man") <- mm.data[ind,"man"]
     return(v)
 }
 
@@ -50,8 +52,12 @@ myman <- function(ind) {
 print.myman <- function(x, width = NULL, ...) {
     if (length(x) == 0) return(invisible())
     if (is.null(width)) width <- 0.9 * getOption("width")
-    if (width < 10) stop("'width' must be greater than 10", call.=FALSE)
-    invisible(sapply(strwrap(paste0(x, "."), width), cat, "\n"))
+    if (width < 41) stop("'width' must be greater than 45", call. = FALSE)
+    mapply(\(x, m, d) cat(paste0(strwrap(x, width), collapse="\n"),
+                          ".\n\t -- about ", m, " on ", d, "\n\n", sep=""),
+           x = x,
+           m = attr(x, "man"),
+           d = format(as.Date(attr(x, "created"))))
 }
 
 ##' @importFrom utils read.csv
