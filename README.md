@@ -13,11 +13,13 @@ off an astonishing array of over six hundred ninety eight BlueSky replies to [an
 his](https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g) featuring a
 certain government figure. On August 12, 2026, a second wave started [with this
 post](https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a) aiming at another
-government figure. (There were also two stray post from the interim period.) All posts start with
-"My man ..." and make for excellent input to a `fortunes`-like package. So this small package
-obliges and offers a random draw each time its `myman()` function is called.  The overall package
-structure follows package `fortunes`, and `atrrr` was used to (bulk-)retrieve posts. Neither package
-is required to run this package to display random selections.
+government figure. (There were also two stray post from the interim period.) This was followed on
+August 17, 2026, with another series starting with [this
+post](https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j). All posts start with "My
+man ..." and make for excellent input to a `fortunes`-like package. So this small package obliges
+and offers a random draw each time its `myman()` function is called.  The overall package structure
+follows package `fortunes`, and `atrrr` was used to (bulk-)retrieve posts. Neither package is
+required to run this package to display random selections.
 
 ### Example
 
@@ -25,8 +27,9 @@ is required to run this package to display random selections.
 > library(myman)                       # load the package
 > set.seed(1)                          # so that this is predictable
 > myman()
-My man looks like Old Sheldon.
->
+My man looks like the Dick Tracy villain Pruneface got a makeover.
+         -- about Robert F. Kennedy, Jr. on 2026-08-13
+> 
 ```
 
 ### Package Status
@@ -43,9 +46,9 @@ The package is at this point only on GitHub so one can rely on the `remotes` pac
 
 ### Acknowledgements
 
-The structure of the `fortunes` package has long served as an excellent template (see for example package
-[gaussfacts](https://github.com/eddelbuettel/gaussfacts) for another application), and package `atrrr` was key
-in retrieving the posts.
+The structure of the `fortunes` package has long served as an excellent template (see for example
+package [gaussfacts](https://github.com/eddelbuettel/gaussfacts) for another application), and
+package `atrrr` was key in retrieving the posts.
 
 ### Author
 
