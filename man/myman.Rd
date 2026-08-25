@@ -9,7 +9,8 @@ myman(ind)
 \method{print}{myman}(x, width = NULL, ...)
 }
 \arguments{
-\item{ind}{Optional index of a quote; if missing a random value is sampled}
+\item{ind}{Optional index of a quote, or character expression to be matched;
+if missing a random index value is sampled}
 
 \item{x}{Default object for \code{print} method}
 

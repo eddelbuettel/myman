@@ -18,7 +18,8 @@ read.mm <- function() {
 ##' starting with
 ##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j}.
 ##' @title Display a Random 'my man' Skeet by Kevin Kruse
-##' @param ind Optional index of a quote; if missing a random value is sampled
+##' @param ind Optional index of a quote, or character expression to be matched;
+##' if missing a random index value is sampled
 ##' @return A character vector containing one randomly selected line
 ##'  from the included file. It is of class \code{myman} for
 ##' which an S3 print method will be invoked.
