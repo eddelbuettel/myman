@@ -3,9 +3,15 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/myman/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/myman/issues/#1}{##1}}
 
+\section{Changes in version 0.0.4 (2026-08-28)}{
+  \itemize{
+    \item Data set now comprises 1040 posts aiming at four different 'men'
+  }
+}
+
 \section{Changes in version 0.0.3 (2026-08-19)}{
   \itemize{
-    \item Data set now comprises 916 aiming at three different 'men'
+    \item Data set now comprises 916 posts aiming at three different 'men'
     \item Csv file, processing and display extended to three columns also
     showing post creating date (in UTC) and 'man'
   }
