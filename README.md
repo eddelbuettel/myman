@@ -16,7 +16,7 @@ post](https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a) aimin
 government figure. (There were also two stray posts from the interim period.) This was followed on
 August 17, 2026, with another series starting with [this
 post](https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j). A fourth wave started on
-August 27, 2026, with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f>. All
+August 27, 2026, with [this post](https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f). All
 posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this
 small package obliges and offers a random draw each time its `myman()` function is called.  The
 overall package structure follows package `fortunes`, and `atrrr` was used to (bulk-)retrieve
