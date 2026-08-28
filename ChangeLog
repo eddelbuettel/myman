@@ -1,10 +1,10 @@
 2026-08-28  Dirk Eddelbuettel  <edd@debian.org>
 
-	* raw/myman_2026-08-28-05-28.rds: 76 new posts
-	* raw/myman_2026-08-28-05-28.csv: Idem
+	* raw/myman_2026-08-28-15-01.rds: 104 new posts
+	* raw/myman_2026-08-28-15-01.csv: Idem
 	* raw/fetchPosts.R: Adjusted
 
-	* raw/allposts_2026-08-28-05-51.csv: Updated three-column set
+	* raw/allposts_2026-08-28-15-03.csv: Updated three-column set
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 

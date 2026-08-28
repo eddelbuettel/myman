@@ -24,11 +24,11 @@ range(cheung$indexed_at)
 # [1] "2026-08-17 22:05:22.226999 UTC" "2026-08-18 02:17:52.630000 UTC"
 cheung$man <- "Steven Cheung"
 
-lutnick <- readRDS("myman_2026-08-28-05-28.rds")
+lutnick <- readRDS("myman_2026-08-28-15-01.rds")
 lutnick$indexed_at <- as.POSIXct(lutnick$indexed_at)
 lutnick$created_at <- as.POSIXct(lutnick$created_at)
 range(lutnick$indexed_at)
-# [1] "2026-08-27 20:48:20.776000 UTC" "2026-08-28 00:46:28.065999 UTC"
+# [1] "2026-08-27 20:48:20.727999 UTC" "2026-08-28 19:02:07.825999 UTC"
 lutnick$man <- "Howard Lutnick"
 
 all <- rbind(miller, kennedy, cheung, lutnick)
