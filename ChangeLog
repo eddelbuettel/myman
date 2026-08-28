@@ -4,6 +4,10 @@
 	* raw/myman_2026-08-28-05-28.csv: Idem
 	* raw/fetchPosts.R: Adjusted
 
+	* raw/allposts_2026-08-28-05-51.csv: Updated three-column set
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
 2026-08-25  Dirk Eddelbuettel  <edd@debian.org>
 
 	* R/myman.R (gaussfact): Small tweak to documentation
