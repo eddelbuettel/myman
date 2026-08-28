@@ -8,6 +8,10 @@
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 
+	* R/myman.R: Updated counts, mention fourth series
+	* man/myman.Rd: Re-rendered
+	* README.md: Updated as well
+
 2026-08-25  Dirk Eddelbuettel  <edd@debian.org>
 
 	* R/myman.R (gaussfact): Small tweak to documentation
