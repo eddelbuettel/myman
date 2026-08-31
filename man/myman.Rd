@@ -4,13 +4,16 @@
 \alias{print.myman}
 \title{Display a Random 'my man' Skeet by Kevin Kruse}
 \usage{
-myman(ind)
+myman(ind, target)
 
 \method{print}{myman}(x, width = NULL, ...)
 }
 \arguments{
 \item{ind}{Optional index of a quote, or character expression to be matched;
 if missing a random index value is sampled}
+
+\item{target}{Optional character value to describe target of posts, can be a part of the name
+as regular expression matching is used}
 
 \item{x}{Default object for \code{print} method}
 
@@ -37,5 +40,6 @@ again starting with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3
 }
 \examples{
 set.seed(123)
-myman()
+myman(target="Miller")    # random draw against first target
+myman("maitre")           # all posts mentioning a "maitre'd"
 }

@@ -1,5 +1,10 @@
 2026-08-31  Dirk Eddelbuettel  <edd@debian.org>
 
+	* DESCRIPTION (Version, Date): Version 0.0.5
+
+	* R/myman.R (myman): Add ability to restrict per target
+	* man/myman.Rd: Re-rendered
+
 	* raw/myman_2026-08-30-21-35.rds: 92 new posts aimed at Bessent
 	* raw/myman_2026-08-30-21-35.csv: Idem
 	* raw/fetchPosts.R: Adjusted

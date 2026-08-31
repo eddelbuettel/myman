@@ -22,17 +22,27 @@ read.mm <- function() {
 ##' @title Display a Random 'my man' Skeet by Kevin Kruse
 ##' @param ind Optional index of a quote, or character expression to be matched;
 ##' if missing a random index value is sampled
+##' @param target Optional character value to describe target of posts, can be a part of the name
+##' as regular expression matching is used
 ##' @return A character vector containing one randomly selected line
 ##'  from the included file. It is of class \code{myman} for
 ##' which an S3 print method will be invoked.
 ##' @author Dirk Eddelbuettel
 ##' @examples
 ##' set.seed(123)
-##' myman()
+##' myman(target="Miller")    # random draw against first target
+##' myman("maitre")           # all posts mentioning a "maitre'd"
 ##' @export
-myman <- function(ind) {
+myman <- function(ind, target) {
     if (is.null(mm.env$mm.data)) mm.env$mm.data <- read.mm()
     mm.data <- mm.env$mm.data
+
+    if (!missing(target)) {
+        tgt <- grepv(target, levels(myman:::mm.env$mm.data$man))
+        if (length(tgt) > 0) {
+            mm.data <- subset(mm.data, man==tgt)
+        }
+    }
 
     if (missing(ind)) {
         n <- nrow(mm.data)
