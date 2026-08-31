@@ -8,17 +8,19 @@
 
 ### Motivation
 
-Starting on the afternoon of July 17, 2026, and lasting for one initial week, Kevin Kruse fired off an astonishing array
-of over six hundred ninety eight BlueSky replies to [an initial post of his][postone] featuring a certain government
-figure. On August 12, 2026, a second wave started [with this post][posttwo] aiming at another government figure. (There
-were also two stray posts from the interim period.) This was followed on August 17, 2026, with another series starting
-with [this post][postthree]. A fourth wave started on August 27, 2026, with [this post][postfour].  A fifth wave started on
-August 30, 2026, with [this post][postfive]. The total now stands at one thousand one hundred thirty four posts.
+Starting on the afternoon of July 17, 2026, and lasting for one initial week, Kevin Kruse fired off
+an astonishing array of over six hundred ninety eight BlueSky replies to [an initial post of
+his][postone] featuring a certain government figure. On August 12, 2026, a second wave started [with
+this post][posttwo] aiming at another government figure. (There were also two stray posts from the
+interim period.) This was followed on August 17, 2026, with another series starting with [this
+post][postthree]. A fourth wave started on August 27, 2026, with [this post][postfour].  A fifth
+wave started on August 30, 2026, with [this post][postfive]. The total now stands at one thousand
+one hundred seventy one posts.
 
-All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this small package
-obliges and offers a random draw each time its `myman()` function is called.  The overall package structure follows
-package `fortunes`, and `atrrr` was used to (bulk-)retrieve posts. Neither package is required to run this package to
-display random selections.
+All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this
+small package obliges and offers a random draw each time its `myman()` function is called.  The
+overall package structure follows package `fortunes`, and `atrrr` was used to (bulk-)retrieve
+posts. Neither package is required to run this package to display random selections.
 
 ### Example
 

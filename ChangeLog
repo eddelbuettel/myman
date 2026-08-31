@@ -5,11 +5,11 @@
 	* R/myman.R (myman): Add ability to restrict per target
 	* man/myman.Rd: Re-rendered
 
-	* raw/myman_2026-08-31-10-20.rds: 114 new posts aimed at Bessent
-	* raw/myman_2026-08-31-10-20.csv: Idem
+	* raw/myman_2026-08-31-18-01.rds: 151 new posts aimed at Bessent
+	* raw/myman_2026-08-31-18-01.csv: Idem
 	* raw/fetchPosts.R: Adjusted
 
-	* raw/allposts_2026-08-31-10-22.csv: Updated three-column set
+	* raw/allposts_2026-08-31-18-05.csv: Updated three-column set
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 
