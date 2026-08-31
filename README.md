@@ -12,8 +12,8 @@ Starting on the afternoon of July 17, 2026, and lasting for one initial week, Ke
 of over six hundred ninety eight BlueSky replies to [an initial post of his][postone] featuring a certain government
 figure. On August 12, 2026, a second wave started [with this post][posttwo] aiming at another government figure. (There
 were also two stray posts from the interim period.) This was followed on August 17, 2026, with another series starting
-with [this post][postthree]. A fourth wave started on August 27, 2026, with [this post][postfour].  A fifth wave ran on
-August 30, 2026, starting with [this post][postfive].
+with [this post][postthree]. A fourth wave started on August 27, 2026, with [this post][postfour].  A fifth wave started on
+August 30, 2026, with [this post][postfive]. The total now stands at one thousand one hundred thirty four posts.
 
 All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this small package
 obliges and offers a random draw each time its `myman()` function is called.  The overall package structure follows
