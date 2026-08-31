@@ -12,12 +12,14 @@ Description: Starting on the afternoon of July 17, 2026, Kevin Kruse fired off a
  <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a>. A third wave started on
  August 17, 2026, with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j>.  A
  fourth wave started on August 27, 2026, with
- <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f>. All posts from these series
- start with 'My man ...' and make for excellent input to a 'fortunes'-like package. So this small
- package obliges and offers a random draw each time its myman() function is called.  The overall
- package structure follows package 'fortunes', and 'atrrr' was used to (bulk-)retrieve
- posts. Neither package is required to run this package to display random selections.
-URL: https://github.com/eddelbuettel/myman, https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g, https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a, https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j, https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f
+ <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f>. A fifth wave ran on August
+ 30, 2026, beginning with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25>.
+ All posts from these series start with 'My man ...' and make for excellent input to a
+ 'fortunes'-like package. So this small package obliges and offers a random draw each time its
+ myman() function is called.  The overall package structure follows package 'fortunes', and 'atrrr'
+ was used to (bulk-)retrieve posts. Neither package is required to run this package to display
+ random selections.
+URL: https://github.com/eddelbuettel/myman
 BugReports: https://github.com/eddelbuettel/myman
 License: GPL (>= 2)
 Encoding: UTF-8

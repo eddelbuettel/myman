@@ -8,6 +8,11 @@
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 
+	* R/myman.R: Updated counts, mention fifth series
+	* man/myman.Rd: Re-rendered
+	* README.md: Updated as well
+	* DESCRIPTION (Description): Idem
+
 2026-08-28  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Version 0.0.4

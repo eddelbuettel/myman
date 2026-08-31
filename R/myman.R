@@ -10,14 +10,15 @@ read.mm <- function() {
 ##' Function to display a randomly chosen 'my man' skeet by Kevin Kruse
 ##'
 ##' This function displays a randomly chosen line from the included
-##' data set of one thousand and twenty 'my man' skeets by Kevin Kruse posted on Bluesky
+##' data set of one thousand one hundred and twelve 'my man' skeets by Kevin Kruse posted on Bluesky
 ##' starting in July 2026 in replies to the initial post
 ##' \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
-##' and in August 2026 starting
+##' and in August 2026 starting with
 ##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a} as well as
 ##' starting with
-##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j} and again
-##' starting with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f}.
+##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j}, again
+##' starting with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f}, and
+##' again starting with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25}.
 ##' @title Display a Random 'my man' Skeet by Kevin Kruse
 ##' @param ind Optional index of a quote, or character expression to be matched;
 ##' if missing a random index value is sampled
