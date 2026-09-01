@@ -15,7 +15,7 @@ this post][posttwo] aiming at another government figure. (There were also two st
 interim period.) This was followed on August 17, 2026, with another series starting with [this
 post][postthree]. A fourth wave started on August 27, 2026, with [this post][postfour].  A fifth
 wave started on August 30, 2026, with [this post][postfive]. The total now stands at one thousand
-one hundred seventy one posts.
+one hundred ninety four one posts.
 
 All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this
 small package obliges and offers a random draw each time its `myman()` function is called.  The

@@ -31,11 +31,11 @@ range(lutnick$indexed_at)
 # [1] "2026-08-27 20:48:20.727999 UTC" "2026-08-28 19:02:07.825999 UTC"
 lutnick$man <- "Howard Lutnick"
 
-bessent <- readRDS("myman_2026-08-31-18-01.rds")
+bessent <- readRDS("myman_2026-08-31-22-09.rds")
 bessent$indexed_at <- as.POSIXct(bessent$indexed_at)
 bessent$created_at <- as.POSIXct(bessent$created_at)
 range(bessent$indexed_at)
-# [1] "2026-08-30 21:02:13.326999 UTC" "2026-08-31 21:21:04.516000 UTC"
+# [1] "2026-08-30 21:02:13.326999 UTC" "2026-09-01 01:48:50.105999 UTC"
 bessent$man <- "Scott Bessent"
 
 

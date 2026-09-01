@@ -10,9 +10,8 @@ read.mm <- function() {
 ##' Function to display a randomly chosen 'my man' skeet by Kevin Kruse
 ##'
 ##' This function displays a randomly chosen line from the included
-##' data set of one thousand one hundred and seventy one 'my man' skeets
-##' by Kevin Kruse posted on Bluesky
-##' starting in July 2026 in replies to the initial post
+##' data set of one thousand one hundred and ninety four 'my man' skeets
+##' by Kevin Kruse posted on Bluesky starting in July 2026 in replies to the initial post
 ##' \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
 ##' and in August 2026 starting with
 ##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a} as well as
@@ -25,9 +24,8 @@ read.mm <- function() {
 ##' if missing a random index value is sampled
 ##' @param target Optional character value to describe target of posts, can be a part of the name
 ##' as regular expression matching is used
-##' @return A character vector containing one randomly selected line
-##'  from the included file. It is of class \code{myman} for
-##' which an S3 print method will be invoked.
+##' @return A character vector containing one randomly selected line from the included file.
+##' It is of class \code{myman} for which an S3 print method will be invoked.
 ##' @author Dirk Eddelbuettel
 ##' @examples
 ##' set.seed(123)
