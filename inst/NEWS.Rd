@@ -3,6 +3,14 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/myman/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/myman/issues/#1}{##1}}
 
+\section{Changes in version 0.0.5 (2026-09-01)}{
+  \itemize{
+    \item Data set now comprises 1194 posts aiming at five different 'men'
+    \item The \code{myman()} function can now now subset by target permitting
+    more focussed randlom sampling
+  }
+}
+
 \section{Changes in version 0.0.4 (2026-08-28)}{
   \itemize{
     \item Data set now comprises 1040 posts aiming at four different 'men'
