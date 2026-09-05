@@ -3,6 +3,12 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/myman/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/myman/issues/#1}{##1}}
 
+\section{Changes in version 0.0.5.1 (2026-09-05)}{
+  \itemize{
+    \item Data set now comprises 1333 posts aiming at six different 'men'
+  }
+}
+
 \section{Changes in version 0.0.5 (2026-09-01)}{
   \itemize{
     \item Data set now comprises 1194 posts aiming at five different 'men'
