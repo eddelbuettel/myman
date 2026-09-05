@@ -39,11 +39,11 @@ range(bessent$indexed_at)
 bessent$man <- "Scott Bessent"
 
 
-mullin <- readRDS("myman_2026-09-05-08-35.rds")
+mullin <- readRDS("myman_2026-09-05-16-22.rds")
 mullin$indexed_at <- as.POSIXct(mullin$indexed_at)
 mullin$created_at <- as.POSIXct(mullin$created_at)
 range(mullin$indexed_at)
-# [1] "2026-09-04 15:11:40.282 UTC" "2026-09-05 04:25:51.377 UTC"
+# [1] "2026-09-04 15:11:40.282 UTC" "2026-09-05 20:50:35.880 UTC"
 mullin$man <- "Markwayne Mullin"
 dim(mullin)
 

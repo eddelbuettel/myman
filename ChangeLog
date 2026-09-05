@@ -2,11 +2,11 @@
 
 	* DESCRIPTION (Version, Date): Roll micro release and date
 
-	* raw/myman_2026-09-05-08-35.rds: 133 new posts aimed at Mullin
-	* raw/myman_2026-09-05-08-35.csv: Idem
+	* raw/myman_2026-09-05-16-22.rds: 187 new posts aimed at Mullin
+	* raw/myman_2026-09-05-16-22.csv: Idem
 	* raw/fetchPosts.R: Adjusted
 
-	* raw/allposts_2026-09-05-09-57.csv: Updated three-column set
+	* raw/allposts_2026-09-05-16-34.csv: Updated 1381 row, three-column set
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 
