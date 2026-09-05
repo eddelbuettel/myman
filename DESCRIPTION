@@ -3,7 +3,7 @@ Type: Package
 Title: Draw from Sequence of 'My Man' Posts by Kevin Kruse
 Version: 0.0.5
 Date: 2026-09-01
-Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre", "cph"), email = "edd@debian.org",
+Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org",
                   comment = c(ORCID = "0000-0001-6419-907X"))
 Description: Starting on the afternoon of July 17, 2026, Kevin Kruse fired off an astonishing
  array of BlueSky replies to an initial post of his featuring a certain government figure:
@@ -13,12 +13,14 @@ Description: Starting on the afternoon of July 17, 2026, Kevin Kruse fired off a
  August 17, 2026, with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j>.  A
  fourth wave started on August 27, 2026, with
  <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f>. A fifth wave ran on August
- 30, 2026, beginning with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25>.
- All of the over eleven hundred posts from these series start with 'My man ...' and make for
- excellent input to a 'fortunes'-like package. So this small package obliges and offers a random
- draw each time its myman() function is called.  The overall package structure follows package
- 'fortunes', and 'atrrr' was used to (bulk-)retrieve posts. Neither package is required to run this
- package to display random selections.
+ 30, 2026, beginning with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25>.  A
+ sixth wave started September 4, 2026, with
+ <https://bsky.app/profile/kevinmkruse.bsky.social/post/3muparqtdkk2w>.  All of the over thirteen
+ hundred posts from these series start with 'My man ...' and make for excellent input to a
+ 'fortunes'-like package. So this small package obliges and offers a random draw each time its
+ myman() function is called.  The overall package structure follows package 'fortunes', and 'atrrr'
+ was used to (bulk-)retrieve posts. Neither package is required to run this package to display
+ random selections.
 URL: https://github.com/eddelbuettel/myman
 BugReports: https://github.com/eddelbuettel/myman
 License: GPL (>= 2)

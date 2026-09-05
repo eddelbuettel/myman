@@ -27,7 +27,7 @@ It is of class \code{myman} for which an S3 print method will be invoked.
 }
 \description{
 This function displays a randomly chosen line from the included
-data set of one thousand one hundred and ninety four 'my man' skeets
+data set of one thousand three hundred and thirty three 'my man' skeets
 by Kevin Kruse posted on Bluesky starting in July 2026 in replies to the initial post
 \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
 and in August 2026 starting with
@@ -35,7 +35,8 @@ and in August 2026 starting with
 starting with
 \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j}, again
 starting with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f}, and
-again starting with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25}.
+again starting with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25} as
+well as with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3muparqtdkk2w}.
 }
 \examples{
 set.seed(123)

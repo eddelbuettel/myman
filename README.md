@@ -2,7 +2,7 @@
 ## myman: Sequence of posts by Kevin Kruse starting with 'My man ...'
 
 [![CI](https://github.com/eddelbuettel/myman/workflows/ci/badge.svg)](https://github.com/eddelbuettel/myman/actions?query=workflow%3Aci)
-[![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.gnu.org/licenses/gpl-2.0.html) 
+[![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.r-project.org/Licenses/GPL-2) 
 [![r-universe](https://eddelbuettel.r-universe.dev/badges/myman)](https://eddelbuettel.r-universe.dev/myman)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/myman)](https://github.com/eddelbuettel/myman)
 
@@ -14,8 +14,9 @@ his][postone] featuring a certain government figure. On August 12, 2026, a secon
 this post][posttwo] aiming at another government figure. (There were also two stray posts from the
 interim period.) This was followed on August 17, 2026, with another series starting with [this
 post][postthree]. A fourth wave started on August 27, 2026, with [this post][postfour].  A fifth
-wave started on August 30, 2026, with [this post][postfive]. The total now stands at one thousand
-one hundred ninety four one posts.
+wave started on August 30, 2026, with [this post][postfive]. A sixth wave started on September 4,
+2026 with [this post][postsix]. The total now stands at one thousand three hundred thirty three
+posts.
 
 All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this
 small package obliges and offers a random draw each time its `myman()` function is called.  The
@@ -80,3 +81,4 @@ GPL (>= 2)
 [postthree]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j
 [postfour]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f
 [postfive]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25
+[postsix]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3muparqtdkk2w
