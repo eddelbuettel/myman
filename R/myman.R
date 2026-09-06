@@ -10,7 +10,7 @@ read.mm <- function() {
 ##' Function to display a randomly chosen 'my man' skeet by Kevin Kruse
 ##'
 ##' This function displays a randomly chosen line from the included
-##' data set of one thousand three hundred and eighty one 'my man' skeets
+##' data set of one thousand three hundred and ninety four 'my man' skeets
 ##' by Kevin Kruse posted on Bluesky starting in July 2026 in replies to the initial post
 ##' \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
 ##' and in August 2026 starting with

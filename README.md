@@ -15,7 +15,7 @@ this post][posttwo] aiming at another government figure. (There were also two st
 interim period.) This was followed on August 17, 2026, with another series starting with [this
 post][postthree]. A fourth wave started on August 27, 2026, with [this post][postfour].  A fifth
 wave started on August 30, 2026, with [this post][postfive]. A sixth wave started on September 4,
-2026 with [this post][postsix]. The total now stands at one thousand three hundred eighty one
+2026 with [this post][postsix]. The total now stands at one thousand three hundred ninety four
 posts.
 
 All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this
