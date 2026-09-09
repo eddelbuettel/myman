@@ -1,3 +1,8 @@
+2026-09-09  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .gitignore: Expanded
+	* .Rbuildignore: Idem
+
 2026-09-07  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Version 0.0.6
