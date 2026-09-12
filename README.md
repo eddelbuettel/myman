@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.r-project.org/Licenses/GPL-2) 
 [![r-universe](https://eddelbuettel.r-universe.dev/badges/myman)](https://eddelbuettel.r-universe.dev/myman)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/myman)](https://github.com/eddelbuettel/myman)
+[![pypi](https://img.shields.io/pypi/v/myman?color=3776ab)](https://pypi.org/project/myman/)
 
 ### Motivation
 
@@ -67,6 +68,10 @@ The package is at this point only on GitHub so one can rely on the `remotes` pac
 The structure of the `fortunes` package has long served as an excellent template (see for example
 package [gaussfacts](https://github.com/eddelbuettel/gaussfacts) for another application), and
 package `atrrr` was key in retrieving the posts.
+
+### See Also
+
+There is also a [Python variant](https://github.com/eddelbuettel/myman-py) on PyPI.
 
 ### Author
 
