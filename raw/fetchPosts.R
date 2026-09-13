@@ -12,7 +12,8 @@ mullin <- readRDS("myman_2026-09-06-07-18.rds")
 mullin$indexed_at <- as.POSIXct(mullin$indexed_at)
 mullin$created_at <- as.POSIXct(mullin$created_at)
 max_mullin <- max(mullin$created_at)
-
+cutoff <- max_mullin
+cutoff
 
 ## limit of 1500 is shooting over the top, we filter later
 sk <- atrrr::get_skeets_authored_by(actor = "kevinmkruse.bsky.social", parse = TRUE, limit=500L)
@@ -20,7 +21,7 @@ mm <- sk |>
     filter(startsWith(author_handle, "kevinmkruse")) |>
     filter(startsWith(text, "My man ")) |>
     arrange(created_at) |>
-    filter(created_at > max_mullin)
+    filter(created_at > cutoff)
 mm |> select(created_at, text) |> head()
 mm |> select(created_at, text) |> tail()
 dim(mm)
