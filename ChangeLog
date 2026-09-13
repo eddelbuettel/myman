@@ -1,4 +1,17 @@
+2026-09-13  Dirk Eddelbuettel  <edd@debian.org>
+
+	* raw/myman_2026-09-13-06-55.rds: 100 new posts aimed at Vance
+	* raw/myman_2026-09-13-06-55.csv: 100 new posts aimed at Vance
+
+	* raw/allposts_2026-09-13-06-59.csv: Updated 1494 row, three-column set
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
 2026-09-12  Dirk Eddelbuettel  <edd@debian.org>
+
+	* raw/myman_2026-09-12-17-06.rds: 57 new posts aimed at Vance
+	* raw/myman_2026-09-12-17-06.csv: Idem
+	* raw/fetchPosts.R: Adjusted
 
 	* README.md: Mention PyPI variant
 

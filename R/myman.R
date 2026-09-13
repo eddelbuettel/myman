@@ -7,10 +7,10 @@ read.mm <- function() {
     data <- read.csv(filename, colClasses=c("character", "POSIXct", "factor"))
 }
 
-##' Function to display a randomly chosen 'my man' skeet by Kevin Kruse
+##' @title Display a Random 'my man' Skeet by Kevin Kruse
 ##'
-##' This function displays a randomly chosen line from the included
-##' data set of one thousand three hundred and ninety four 'my man' skeets
+##' @description This function displays a randomly chosen line from the included
+##' data set of one thousand four hundred and ninety four 'my man' skeets
 ##' by Kevin Kruse posted on Bluesky starting in July 2026 in replies to the initial post
 ##' \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
 ##' and in August 2026 starting with
@@ -19,8 +19,9 @@ read.mm <- function() {
 ##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j}, again
 ##' starting with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f}, and
 ##' again starting with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25} as
-##' well as with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3muparqtdkk2w}.
-##' @title Display a Random 'my man' Skeet by Kevin Kruse
+##' well as with \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3muparqtdkk2w} and
+##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvdol6xu5k2s}.
+##'
 ##' @param ind Optional index of a quote, or character expression to be matched;
 ##' if missing a random index value is sampled
 ##' @param target Optional character value to describe target of posts, can be a part of the name
