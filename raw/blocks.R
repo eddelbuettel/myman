@@ -47,8 +47,18 @@ range(mullin$indexed_at)
 mullin$man <- "Markwayne Mullin"
 dim(mullin)
 
+vance <- readRDS("myman_2026-09-13-06-55.rds")
+vance$indexed_at <- as.POSIXct(vance$indexed_at)
+vance$created_at <- as.POSIXct(vance$created_at)
+range(vance$indexed_at)
+# [1] "2026-09-12 18:11:44.983999 UTC" "2026-09-13 02:23:24.279999 UTC"
+vance$man <- "JD Vance"
+dim(vance)
 
-all <- rbind(miller, kennedy, cheung, lutnick, bessent, mullin)
+
+
+
+all <- rbind(miller, kennedy, cheung, lutnick, bessent, mullin, vance)
 dim(all)
 res <- data.frame(post = gsub("\\n", "", all$text),
                   created = all$created_at,
