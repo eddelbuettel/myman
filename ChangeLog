@@ -1,11 +1,20 @@
+2026-09-14  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Version 0.0.7
+
 2026-09-13  Dirk Eddelbuettel  <edd@debian.org>
 
 	* raw/myman_2026-09-13-06-55.rds: 100 new posts aimed at Vance
-	* raw/myman_2026-09-13-06-55.csv: 100 new posts aimed at Vance
+	* raw/myman_2026-09-13-06-55.csv: Idem
 
 	* raw/allposts_2026-09-13-06-59.csv: Updated 1494 row, three-column set
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
+
+	* R/myman.R: Updated counts, mention seventh series
+	* man/myman.Rd: Re-rendered
+	* README.md: Updated as well
+	* DESCRIPTION (Description): Idem
 
 2026-09-12  Dirk Eddelbuettel  <edd@debian.org>
 
@@ -34,6 +43,11 @@
 	* raw/allposts_2026-09-06-07-19.csv: Updated 1394 row, three-column set
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
+
+	* R/myman.R: Updated counts, mention sixth series
+	* man/myman.Rd: Re-rendered
+	* README.md: Updated as well
+	* DESCRIPTION (Description): Idem
 
 2026-09-05  Dirk Eddelbuettel  <edd@debian.org>
 
