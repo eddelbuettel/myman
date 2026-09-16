@@ -1,5 +1,15 @@
 2026-09-16  Dirk Eddelbuettel  <edd@debian.org>
 
+	* raw/myman_2026-09-16-13-17.rds: 100 new posts aimed at Hegseth
+	* raw/myman_2026-09-16-13-17.csv: Idem
+	* raw/fetchPosts.R: Adjusted
+
+	* raw/allposts_2026-09-16-13-23.csv: Updated 1594 row, three-column set
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
+	* DESCRIPTION (Description): Mention eighth series
+
 	* .aspell/words.rds: Added
 	* .aspell/defaults.R: Idem
 
