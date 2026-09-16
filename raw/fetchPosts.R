@@ -7,12 +7,12 @@ suppressMessages({
 
 setwd("~/git/myman/raw/")
 
-## we need the date of the last mullin post.
-mullin <- readRDS("myman_2026-09-06-07-18.rds")
-mullin$indexed_at <- as.POSIXct(mullin$indexed_at)
-mullin$created_at <- as.POSIXct(mullin$created_at)
-max_mullin <- max(mullin$created_at)
-cutoff <- max_mullin
+## we need the date of the last vance post.
+vance <- readRDS("myman_2026-09-13-06-55.rds")
+vance$indexed_at <- as.POSIXct(vance$indexed_at)
+vance$created_at <- as.POSIXct(vance$created_at)
+max_vance <- max(vance$created_at)
+cutoff <- max_vance
 cutoff
 
 ## limit of 1500 is shooting over the top, we filter later
