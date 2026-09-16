@@ -8,7 +8,10 @@
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 
-	* DESCRIPTION (Description): Mention eighth series
+	* R/myman.R: Updated counts, mention eighth series
+	* man/myman.Rd: Re-rendered
+	* README.md: Updated as well
+	* DESCRIPTION (Description): Idem
 
 	* .aspell/words.rds: Added
 	* .aspell/defaults.R: Idem
