@@ -55,11 +55,11 @@ range(vance$indexed_at)
 vance$man <- "JD Vance"
 dim(vance)
 
-hegseth <- readRDS("myman_2026-09-16-13-17.rds")
+hegseth <- readRDS("myman_2026-09-16-16-05.rds")
 hegseth$indexed_at <- as.POSIXct(hegseth$indexed_at)
 hegseth$created_at <- as.POSIXct(hegseth$created_at)
 range(hegseth$indexed_at)
-# [1] "2026-09-16 17:05:17.792 UTC" "2026-09-16 18:13:47.180 UTC"
+# [1] "2026-09-16 17:05:17.792 UTC" "2026-09-16 20:24:17.980 UTC"
 hegseth$man <- "Pete Hegseth"
 dim(hegseth)
 
