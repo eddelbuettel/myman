@@ -1,3 +1,8 @@
+2026-09-16  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .aspell/words.rds: Added
+	* .aspell/defaults.R: Idem
+
 2026-09-14  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Version 0.0.7
