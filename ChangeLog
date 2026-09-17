@@ -1,4 +1,22 @@
+2026-09-17  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll micro release and date
+
+	* raw/myman_2026-09-17-10-34.rds: 200 new posts aimed at Hegseth
+	* raw/myman_2026-09-17-10-34.csv: Idem
+	* raw/fetchPosts.R: Adjusted
+
+	* raw/allposts_2026-09-17-10-38.csv: Updated 1694 row, three-column set
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
+	* R/myman.R: Updated counts, mention eighth series
+	* man/myman.Rd: Re-rendered
+	* README.md: Updated as well
+
 2026-09-16  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll micro release and date
 
 	* raw/myman_2026-09-16-13-17.rds: 100 new posts aimed at Hegseth
 	* raw/myman_2026-09-16-13-17.csv: Idem
