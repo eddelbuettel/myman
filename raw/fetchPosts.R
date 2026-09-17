@@ -15,7 +15,7 @@ max_vance <- max(vance$created_at)
 cutoff <- max_vance
 cutoff
 
-## limit of 1500 is shooting over the top, we filter later
+## limit of 1500 is shooting over the top, we filter later; now set to 500 which is 'good enough'
 sk <- atrrr::get_skeets_authored_by(actor = "kevinmkruse.bsky.social", parse = TRUE, limit=500L)
 mm <- sk |>
     filter(startsWith(author_handle, "kevinmkruse")) |>
