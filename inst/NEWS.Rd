@@ -3,6 +3,13 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/myman/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/myman/issues/#1}{##1}}
 
+\section{Changes in version 0.0.8 (2026-09-18)}{
+  \itemize{
+    \item Data set now comprises 1694 posts aiming at eight different 'men'
+    \item The number of 'sample()' object returned can not be set with 'posts'
+  }
+}
+
 \section{Changes in version 0.0.7 (2026-09-14)}{
   \itemize{
     \item Data set now comprises 1494 posts aiming at seven different 'men'

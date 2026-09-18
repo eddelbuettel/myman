@@ -1,5 +1,7 @@
 2026-09-18  Dirk Eddelbuettel  <edd@debian.org>
 
+	* DESCRIPTION (Version, Date): Version 0.0.8
+
 	* R/myman.R (myman): Support optional argument 'posts' to select
 	number of samples, can be used with 'target' as well
 	* man/myman.Rd: Documented
