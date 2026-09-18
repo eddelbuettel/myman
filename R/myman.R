@@ -27,6 +27,7 @@ read.mm <- function() {
 ##' if missing a random index value is sampled
 ##' @param target Optional character value to describe target of posts, can be a part of the name
 ##' as regular expression matching is used
+##' @param posts Optional count for number of posts to sample, defaults to one
 ##' @return A character vector containing one randomly selected line from the included file.
 ##' It is of class \code{myman} for which an S3 print method will be invoked.
 ##' @author Dirk Eddelbuettel
@@ -35,7 +36,7 @@ read.mm <- function() {
 ##' myman(target="Miller")    # random draw against first target
 ##' myman("maitre")           # all posts mentioning a "maitre'd"
 ##' @export
-myman <- function(ind, target) {
+myman <- function(ind, target, posts=1) {
     if (is.null(mm.env$mm.data)) mm.env$mm.data <- read.mm()
     mm.data <- mm.env$mm.data
 
@@ -48,7 +49,7 @@ myman <- function(ind, target) {
 
     if (missing(ind)) {
         n <- nrow(mm.data)
-        ind <- sample(1:n, 1)
+        ind <- sample(1:n, posts)
     } else if (is.character(ind)) {
         ind <- grep(ind, mm.data[,"post"])
     }

@@ -4,7 +4,7 @@
 \alias{print.myman}
 \title{Display a Random 'my man' Skeet by Kevin Kruse}
 \usage{
-myman(ind, target)
+myman(ind, target, posts = 1)
 
 \method{print}{myman}(x, width = NULL, ...)
 }
@@ -14,6 +14,8 @@ if missing a random index value is sampled}
 
 \item{target}{Optional character value to describe target of posts, can be a part of the name
 as regular expression matching is used}
+
+\item{posts}{Optional count for number of posts to sample, defaults to one}
 
 \item{x}{Default object for \code{print} method}
 
