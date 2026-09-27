@@ -3,6 +3,14 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/myman/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/myman/issues/#1}{##1}}
 
+\section{Changes in version 0.1.0 (2026-09-27)}{
+  \itemize{
+    \item Initial CRAN version (minus the 0.0.8 changes which were made while
+    CRAN reviewed the package)
+    \item Add an aspell dictionary to aid DESCRIPTION text
+  }
+}
+
 \section{Changes in version 0.0.8 (2026-09-18)}{
   \itemize{
     \item Data set now comprises 1694 posts aiming at eight different 'men'

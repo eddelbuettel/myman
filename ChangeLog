@@ -1,3 +1,11 @@
+2026-09-27  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Version 0.1.0 is now on CRAN, initial
+	upload was made after 0.0.7 so the initial upload misses 0.0.8 changes
+
+	* .aspell/words.rds: Added
+	* .aspell/defaults.R: Idem
+
 2026-09-18  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Version 0.0.8
@@ -38,9 +46,6 @@
 	* man/myman.Rd: Re-rendered
 	* README.md: Updated as well
 	* DESCRIPTION (Description): Idem
-
-	* .aspell/words.rds: Added
-	* .aspell/defaults.R: Idem
 
 2026-09-14  Dirk Eddelbuettel  <edd@debian.org>
 
