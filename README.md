@@ -3,6 +3,8 @@
 
 [![CI](https://github.com/eddelbuettel/myman/workflows/ci/badge.svg)](https://github.com/eddelbuettel/myman/actions?query=workflow%3Aci)
 [![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.r-project.org/Licenses/GPL-2) 
+[![CRAN](https://www.r-pkg.org/badges/version/myman)](https://cran.r-project.org/package=myman) 
+[![Dependencies](https://tinyverse.netlify.app/badge/myman)](https://cran.r-project.org/package=myman)
 [![r-universe](https://eddelbuettel.r-universe.dev/badges/myman)](https://eddelbuettel.r-universe.dev/myman)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/myman)](https://github.com/eddelbuettel/myman)
 [![pypi](https://img.shields.io/pypi/v/myman?color=3776ab)](https://pypi.org/project/myman/)
@@ -57,7 +59,13 @@ Complete and functional, no dependencies, passes checks.
 
 ### Installation
 
-The package is at this point only on GitHub so one can rely on the `remotes` package to do
+The package is on CRAN so the standard installation via
+
+```{r}
+> install.packages("myman")
+```
+
+will work.  It can also be installed from GitHub using the `remotes` package via the command
 
 ```{r}
 > remotes::install_github("eddelbuettel/myman")

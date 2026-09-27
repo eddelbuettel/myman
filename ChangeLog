@@ -3,6 +3,8 @@
 	* DESCRIPTION (Version, Date): Version 0.1.0 is now on CRAN, initial
 	upload was made after 0.0.7 so the initial upload misses 0.0.8 changes
 
+	* README.md: Add CRAN and dependency badges
+
 	* .aspell/words.rds: Added
 	* .aspell/defaults.R: Idem
 
