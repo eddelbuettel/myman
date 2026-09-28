@@ -28,7 +28,7 @@ posts. Neither package is required to run this package to display random selecti
 
 ### Example
 
-```{r}
+```r
 > library(myman)                       # load the package
 > example(myman)
 
@@ -61,13 +61,13 @@ Complete and functional, no dependencies, passes checks.
 
 The package is on CRAN so the standard installation via
 
-```{r}
+```r
 > install.packages("myman")
 ```
 
 will work.  It can also be installed from GitHub using the `remotes` package via the command
 
-```{r}
+```r
 > remotes::install_github("eddelbuettel/myman")
 ```
 
