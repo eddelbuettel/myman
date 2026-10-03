@@ -8,8 +8,11 @@
 	* raw/myman_2026-10-03-06-24.csv: Idem
 	* raw/fetchPosts.R: Adjusted
 
-	* README.md: Mention nineth wave
-	* DESCRIPTION: Idem
+	* R/myman.R: Updated counts, mention nineth series
+	* man/myman.Rd: Re-rendered
+
+	* README.md: Updated counts, mention nineth wave
+	* DESCRIPTION: Mention nineth wave
 
 2026-09-27  Dirk Eddelbuettel  <edd@debian.org>
 
