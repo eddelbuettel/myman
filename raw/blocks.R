@@ -63,10 +63,18 @@ range(hegseth$indexed_at)
 hegseth$man <- "Pete Hegseth"
 dim(hegseth)
 
+luckey <- readRDS("myman_2026-10-03-06-24.rds")
+luckey$indexed_at <- as.POSIXct(luckey$indexed_at)
+luckey$created_at <- as.POSIXct(luckey$created_at)
+range(luckey$indexed_at)
+# [1] "2026-10-01 22:51:22.280999 UTC" "2026-10-02 16:11:18.888000 UTC"
+luckey$man <- "Palmer Luckey"
+dim(luckey)
 
 
 
-all <- rbind(miller, kennedy, cheung, lutnick, bessent, mullin, vance, hegseth)
+
+all <- rbind(miller, kennedy, cheung, lutnick, bessent, mullin, vance, hegseth, luckey)
 dim(all)
 res <- data.frame(post = gsub("\\n", "", all$text),
                   created = all$created_at,

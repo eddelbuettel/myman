@@ -1,5 +1,9 @@
 2026-10-03  Dirk Eddelbuettel  <edd@debian.org>
 
+	* raw/allposts_2026-10-03-06-36.csv: Updated 1694 row, three-column set
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
 	* raw/myman_2026-10-03-06-24.rds: 100 new posts aimed at Luckey
 	* raw/myman_2026-10-03-06-24.csv: Idem
 	* raw/fetchPosts.R: Adjusted
