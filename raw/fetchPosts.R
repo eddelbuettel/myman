@@ -8,11 +8,11 @@ suppressMessages({
 setwd("~/git/myman/raw/")
 
 ## we need the date of the last vance post.
-vance <- readRDS("myman_2026-09-13-06-55.rds")
-vance$indexed_at <- as.POSIXct(vance$indexed_at)
-vance$created_at <- as.POSIXct(vance$created_at)
-max_vance <- max(vance$created_at)
-cutoff <- max_vance
+hegseth <- readRDS("myman_2026-09-17-10-34.rds")
+hegseth$indexed_at <- as.POSIXct(hegseth$indexed_at)
+hegseth$created_at <- as.POSIXct(hegseth$created_at)
+max_hegseth <- max(hegseth$created_at)
+cutoff <- max_hegseth
 cutoff
 
 ## limit of 1500 is shooting over the top, we filter later; now set to 500 which is 'good enough'

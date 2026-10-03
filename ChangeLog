@@ -1,3 +1,12 @@
+2026-10-03  Dirk Eddelbuettel  <edd@debian.org>
+
+	* raw/myman_2026-10-03-06-24.rds: 100 new posts aimed at Luckey
+	* raw/myman_2026-10-03-06-24.csv: Idem
+	* raw/fetchPosts.R: Adjusted
+
+	* README.md: Mention nineth wave
+	* DESCRIPTION: Idem
+
 2026-09-27  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Version 0.1.0 is now on CRAN, initial
