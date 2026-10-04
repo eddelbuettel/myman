@@ -20,8 +20,8 @@ post][postthree]. A fourth wave started on August 27, 2026, with [this post][pos
 wave started on August 30, 2026, with [this post][postfive]. A sixth wave started on September 4,
 2026 with [this post][postsix]. A seventh wave started on September 12, 2026, with [this
 post][postseven]. An eighth wave started Septemer 16, 2026, with [this post][posteight].  A nineth 
-wave started October 2, 2026, with this post. The total now stands at one thousand seven hundred 
-ninety four posts.
+wave started October 1, 2026, with [this post][postnine]. A tenth wave started October 9, 2026, with
+[this post][postten]. The total now stands at one thousand seven hundred ninety four posts.
 
 All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this
 small package obliges and offers a random draw each time its `myman()` function is called.  The
@@ -99,3 +99,5 @@ GPL (>= 2)
 [postsix]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3muparqtdkk2w
 [postseven]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvdol6xu5k2s
 [posteight]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvnmq23nw22y
+[postnine]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mwtx2jztkk2g
+[postten]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mx333hlmdc2o
