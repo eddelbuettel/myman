@@ -71,10 +71,18 @@ range(luckey$indexed_at)
 luckey$man <- "Palmer Luckey"
 dim(luckey)
 
+musk <- readRDS("myman_2026-10-05-06-07.rds")
+musk$indexed_at <- as.POSIXct(musk$indexed_at)
+musk$created_at <- as.POSIXct(musk$created_at)
+range(musk$indexed_at)
+# [1] "2026-10-04 18:52:04.487999 UTC" "2026-10-05 01:38:08.476999 UTC"
+musk$man <- "Elon Musk"
+dim(musk)
 
 
 
-all <- rbind(miller, kennedy, cheung, lutnick, bessent, mullin, vance, hegseth, luckey)
+all <- rbind(miller, kennedy, cheung, lutnick, bessent,
+             mullin, vance, hegseth, luckey, musk)
 dim(all)
 res <- data.frame(post = gsub("\\n", "", all$text),
                   created = all$created_at,

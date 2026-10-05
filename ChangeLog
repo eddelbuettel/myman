@@ -1,8 +1,17 @@
 2026-10-05  Dirk Eddelbuettel  <edd@debian.org>
 
+	* raw/allposts_2026-10-05-06-16.csv: Updated 1794 row, three-column set
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
 	* raw/myman_2026-10-05-06-07.csv: 100 new posts aimed at Musk
 	* raw/myman_2026-10-05-06-07.rds: Idem
 	* raw/fetchPosts.R: Adjusted
+
+2026-10-04  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Mention tenth wave
+	* DESCRIPTION: Idem
 
 2026-10-03  Dirk Eddelbuettel  <edd@debian.org>
 
