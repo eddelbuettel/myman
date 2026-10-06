@@ -1,11 +1,11 @@
 2026-10-05  Dirk Eddelbuettel  <edd@debian.org>
 
-	* raw/allposts_2026-10-05-06-16.csv: Updated 1794 row, three-column set
+	* raw/allposts_2026-10-05-20-03.csv: Updated 1916 row, three-column set
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 
-	* raw/myman_2026-10-05-06-07.csv: 100 new posts aimed at Musk
-	* raw/myman_2026-10-05-06-07.rds: Idem
+	* raw/myman_2026-10-05-20-02.csv: 122 new posts aimed at Musk
+	* raw/myman_2026-10-05-20-02.rds: Idem
 	* raw/fetchPosts.R: Adjusted
 
 2026-10-04  Dirk Eddelbuettel  <edd@debian.org>

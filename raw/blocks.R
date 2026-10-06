@@ -38,7 +38,6 @@ range(bessent$indexed_at)
 # [1] "2026-08-30 21:02:13.326999 UTC" "2026-09-01 01:48:50.105999 UTC"
 bessent$man <- "Scott Bessent"
 
-
 mullin <- readRDS("myman_2026-09-06-07-18.rds")
 mullin$indexed_at <- as.POSIXct(mullin$indexed_at)
 mullin$created_at <- as.POSIXct(mullin$created_at)
@@ -71,11 +70,11 @@ range(luckey$indexed_at)
 luckey$man <- "Palmer Luckey"
 dim(luckey)
 
-musk <- readRDS("myman_2026-10-05-06-07.rds")
+musk <- readRDS("myman_2026-10-05-20-02.rds")
 musk$indexed_at <- as.POSIXct(musk$indexed_at)
 musk$created_at <- as.POSIXct(musk$created_at)
 range(musk$indexed_at)
-# [1] "2026-10-04 18:52:04.487999 UTC" "2026-10-05 01:38:08.476999 UTC"
+# [1] "2026-10-04 18:52:04.487999 UTC" "2026-10-05 21:36:47.881000 UTC"
 musk$man <- "Elon Musk"
 dim(musk)
 
