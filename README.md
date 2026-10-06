@@ -92,7 +92,7 @@ Dirk Eddelbuettel
 GPL (>= 2)
 
 [postone]: https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g
-[posttwo]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagca2
+[posttwo]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mstvbjpagc2a
 [postthree]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mtcpiw7gi22j
 [postfour]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mu3pugs2yk2f
 [postfive]: https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25
