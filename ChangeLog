@@ -12,6 +12,9 @@
 
 	* README.md: Correct 'wave two' URL to the one in R and Rd file
 
+	* R/myman.R (posts): Add helper function to return data.frame of posts
+	* man/myman.Rd: Add documentation
+
 2026-10-05  Dirk Eddelbuettel  <edd@debian.org>
 
 	* raw/allposts_2026-10-05-20-03.csv: Updated 1916 row, three-column set

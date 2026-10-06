@@ -2,11 +2,14 @@
 \name{myman}
 \alias{myman}
 \alias{print.myman}
+\alias{posts}
 \title{Display a Random 'my man' Skeet by Kevin Kruse}
 \usage{
 myman(ind, target, posts = 1)
 
 \method{print}{myman}(x, width = NULL, ...)
+
+posts()
 }
 \arguments{
 \item{ind}{Optional index of a quote, or character expression to be matched;
@@ -42,6 +45,9 @@ further series starting with, respectively,
 \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvdol6xu5k2s},
 \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvnmq23nw22y} and
 \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mwtx2jztkk2g}.
+
+\code{posts} is a convenience function that returns the underlying data
+as a data.frame
 }
 \examples{
 set.seed(123)

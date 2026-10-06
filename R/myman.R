@@ -24,6 +24,9 @@ read.mm <- function() {
 ##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvnmq23nw22y} and
 ##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mwtx2jztkk2g}.
 ##'
+##' \code{posts} is a convenience function that returns the underlying data
+##' as a data.frame
+##'
 ##' @param ind Optional index of a quote, or character expression to be matched;
 ##' if missing a random index value is sampled
 ##' @param target Optional character value to describe target of posts, can be a part of the name
@@ -75,6 +78,14 @@ print.myman <- function(x, width = NULL, ...) {
            x = x,
            m = as.character(attr(x, "man")),
            d = format(as.Date(attr(x, "created"))))
+}
+
+##' @rdname myman
+##' @return The data.frame of times, posts, and men addressed
+##' @export
+posts <- function() {
+    if (is.null(mm.env$mm.data)) mm.env$mm.data <- read.mm()
+    mm.env$mm.data
 }
 
 ##' @importFrom utils read.csv
