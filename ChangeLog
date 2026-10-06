@@ -1,5 +1,12 @@
 2026-10-06  Dirk Eddelbuettel  <edd@debian.org>
 
+	* raw/allposts_2026-10-06-13-35.csv: Updated 1954 row, three-column set
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
+	* raw/myman_2026-10-06-13-31.csv: 160 new posts aimed at Musk
+	* raw/myman_2026-10-06-13-31.rds: Idem
+
 	* raw/fetchPosts.R: Find most recent file to compare most recent post
 	* raw/blocks.R: Generalize using parameters
 

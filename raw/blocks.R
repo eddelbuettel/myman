@@ -11,7 +11,7 @@ myman_2026-09-06-07-18.rds|Markwayne Mullin
 myman_2026-09-13-06-55.rds|JD Vance
 myman_2026-09-17-10-34.rds|Pete Hegseth
 myman_2026-10-03-06-24.rds|Palmer Luckey
-myman_2026-10-05-20-02.rds|Elon Musk
+myman_2026-10-06-13-31.rds|Elon Musk
 ]"
 men <- read.table(header=TRUE, text=text, sep="|")
 
@@ -25,6 +25,7 @@ for (i in seq_len(nrow(men))) {
     new$man <- men[i, "man"]
     set <- rbind(set, new)
 }
+print(nrow(set))
 
 ## Fix first two names in Kennedy set which are still Miller
 ind <- which(set$man == "Robert F. Kennedy, Jr.")[1:2]
