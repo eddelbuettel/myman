@@ -1,6 +1,7 @@
 2026-10-06  Dirk Eddelbuettel  <edd@debian.org>
 
 	* raw/fetchPosts.R: Find most recent file to compare most recent post
+	* raw/blocks.R: Generalize using parameters
 
 	* README.md: Correct 'wave two' URL to the one in R and Rd file
 
