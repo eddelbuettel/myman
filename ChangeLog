@@ -1,3 +1,7 @@
+2026-10-06  Dirk Eddelbuettel  <edd@debian.org>
+
+	* raw/fetchPosts.R: Find most recent file to compare most recent post
+
 2026-10-05  Dirk Eddelbuettel  <edd@debian.org>
 
 	* raw/allposts_2026-10-05-20-03.csv: Updated 1916 row, three-column set

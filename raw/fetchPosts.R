@@ -8,7 +8,9 @@ suppressMessages({
 setwd("~/git/myman/raw/")
 
 ## we need the date of the last post in the previous wave
-last_wave <- readRDS("myman_2026-10-03-06-24.rds")
+files <- list.files(".", pattern=r"(myman_\d{4}-\d{2}-\d{2}-\d{2}-\d{2}\.rds)")
+last_file <- files[which.max(file.info(files)$ctime)]
+last_wave <- readRDS(last_file)
 last_wave$indexed_at <- as.POSIXct(last_wave$indexed_at)
 last_wave$created_at <- as.POSIXct(last_wave$created_at)
 max_last_wave <- max(last_wave$created_at)
@@ -24,11 +26,13 @@ mm <- sk |>
     filter(created_at > cutoff)
 mm |> select(created_at, text) |> head()
 mm |> select(created_at, text) |> tail()
-dim(mm)
+if (interactive()) print(nrow(mm))
 
-now <- format(Sys.time(), "%F-%H-%M")
-saveRDS(mm, file=paste0("myman_", now, ".rds"))
-txt <- mm[, "text"]
-colnames(txt) <- "post"
-filtered <- data.frame(post = gsub("\\n", "", txt[,"post",drop=TRUE]))
-write.csv(filtered, file=paste0("myman_", now, ".csv"), quote=TRUE, row.names=FALSE)
+if (nrow(mm) > 0) {
+    now <- format(Sys.time(), "%F-%H-%M")
+    saveRDS(mm, file=paste0("myman_", now, ".rds"))
+    txt <- mm[, "text"]
+    colnames(txt) <- "post"
+    filtered <- data.frame(post = gsub("\\n", "", txt[,"post",drop=TRUE]))
+    write.csv(filtered, file=paste0("myman_", now, ".csv"), quote=TRUE, row.names=FALSE)
+}
