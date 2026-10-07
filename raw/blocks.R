@@ -11,17 +11,20 @@ myman_2026-09-06-07-18.rds|Markwayne Mullin
 myman_2026-09-13-06-55.rds|JD Vance
 myman_2026-09-17-10-34.rds|Pete Hegseth
 myman_2026-10-03-06-24.rds|Palmer Luckey
-myman_2026-10-06-13-31.rds|Elon Musk
+myman_2026-10-07-08-20.rds|Elon Musk
 ]"
 men <- read.table(header=TRUE, text=text, sep="|")
 
 ## Simple 'read and append' loop
 set <- NULL
 for (i in seq_len(nrow(men))) {
-    new <- readRDS(men[i, "file"])
+    rdsfile <- men[i, "file"]
+    stopifnot("file missing" = file.exists(rdsfile))
+    new <- readRDS(rdsfile)
     new$indexed_at <- as.POSIXct(new$indexed_at)
     new$created_at <- as.POSIXct(new$created_at)
-    print(range(new$indexed_at))
+    cat(rdsfile,":", format(range(new$indexed_at)), "\n")
+    #print(range(new$indexed_at))
     new$man <- men[i, "man"]
     set <- rbind(set, new)
 }
@@ -37,7 +40,7 @@ res <- data.frame(post = gsub("\\n", "", set$text),
                   man = as.factor(set$man))
 now <- format(Sys.time(), "%F-%H-%M")
 write.csv(res, file=paste0("allposts_", now, ".csv"), quote=TRUE, row.names=FALSE)
-q()
+
 
 
 ## Old copy and pasted code below
