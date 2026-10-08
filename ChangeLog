@@ -1,3 +1,7 @@
+2026-10-08  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Version 0.10.0
+
 2026-10-07  Dirk Eddelbuettel  <edd@debian.org>
 
 	* raw/allposts_2026-10-07-08-30.csv: Updated 1984 row, three-column set
@@ -54,11 +58,11 @@
 	* raw/myman_2026-10-03-06-24.csv: Idem
 	* raw/fetchPosts.R: Adjusted
 
-	* R/myman.R: Updated counts, mention nineth series
+	* R/myman.R: Updated counts, mention ninth series
 	* man/myman.Rd: Re-rendered
 
-	* README.md: Updated counts, mention nineth wave
-	* DESCRIPTION: Mention nineth wave
+	* README.md: Updated counts, mention ninth wave
+	* DESCRIPTION: Mention ninth wave
 
 2026-09-27  Dirk Eddelbuettel  <edd@debian.org>
 

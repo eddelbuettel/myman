@@ -3,6 +3,18 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/myman/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/myman/issues/#1}{##1}}
 
+\section{Changes in version 0.10.0 (2026-10-08)}{
+  \itemize{
+    \item New waves nine (100 posts) and ten (190 posts) made last week;
+    total is now 1984 posts 
+    \item New helper functions \code{posts()} and \code{men()} retrieving
+    data.frame of posts and tabulation of targets
+    \item Internal post gathering and aggregation functions have been
+    updated and generalized
+    \item Versioning scheme now goes with post waves (also for Python sibbling)
+  }
+}
+
 \section{Changes in version 0.1.0 (2026-09-27)}{
   \itemize{
     \item Initial CRAN version (minus the 0.0.8 changes which were made while
