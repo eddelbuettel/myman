@@ -9,13 +9,16 @@ setwd("~/git/myman/raw/")
 
 ## we need the date of the last post in the previous wave
 files <- list.files(".", pattern=r"(myman_\d{4}-\d{2}-\d{2}-\d{2}-\d{2}\.rds)")
-last_file <- files[which.max(file.info(files)$ctime)]
+last_file <- files[which.max(file.info(files)$ctime)] # last file
 last_wave <- readRDS(last_file)
 last_wave$indexed_at <- as.POSIXct(last_wave$indexed_at)
 last_wave$created_at <- as.POSIXct(last_wave$created_at)
 max_last_wave <- max(last_wave$created_at)
 cutoff <- max_last_wave
 cutoff
+
+## files without most recent:
+##   setdiff(files, last_file)
 
 ## limit of 1500 is shooting over the top, we filter later; now set to 500 which is 'good enough'
 sk <- atrrr::get_skeets_authored_by(actor = "kevinmkruse.bsky.social", parse = TRUE, limit=500L)

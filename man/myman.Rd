@@ -3,6 +3,7 @@
 \alias{myman}
 \alias{print.myman}
 \alias{posts}
+\alias{men}
 \title{Display a Random 'my man' Skeet by Kevin Kruse}
 \usage{
 myman(ind, target, posts = 1)
@@ -10,6 +11,8 @@ myman(ind, target, posts = 1)
 \method{print}{myman}(x, width = NULL, ...)
 
 posts()
+
+men()
 }
 \arguments{
 \item{ind}{Optional index of a quote, or character expression to be matched;
@@ -32,7 +35,7 @@ It is of class \code{myman} for which an S3 print method will be invoked.
 }
 \description{
 This function displays a randomly chosen line from the included
-data set of one thousand seven hundred and ninety four 'my man' skeets
+data set of one thousand nine hundred and eighty four 'my man' skeets
 by Kevin Kruse posted on Bluesky starting in July 2026 in replies to the initial post
 \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
 in August 2026 starting with
