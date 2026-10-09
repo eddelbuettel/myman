@@ -18,6 +18,7 @@ Description: Starting on the afternoon of July 17, 2026, Kevin Kruse fired off a
  wave started September 16, 2026, with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvnmq23nw22y>. A
  ninth wave started October 1, 2026 with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mwtx2jztkk2g>.
  A tenth wave started October 4, 2026, with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mx333hlmdc2o>.
+ An eleventh wave started October 10, 2026, with <https://bsky.app/profile/kevinmkruse.bsky.social/post/3mxgzqblov22r>.
  All of the over seventeen hundred posts from these series start with 'My man ...' and make for excellent input to a
  'fortunes'-like package. So this small package obliges and offers a random draw each time its myman() function is
  called.  The overall package structure follows package 'fortunes', and 'atrrr' was used to (bulk-)retrieve

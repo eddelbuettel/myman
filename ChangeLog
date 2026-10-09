@@ -1,5 +1,8 @@
 2026-10-09  Dirk Eddelbuettel  <edd@debian.org>
 
+	* DESCRIPTION (Description): Note eleventh wave
+	* README.md: Idem
+
 	* raw/blocks.R: Create man column as an ordered factor so that
 	tabulation is in chronological order of waves
 	* R/myman.R (read.mm): Idem for data reader
