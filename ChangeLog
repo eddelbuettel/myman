@@ -1,5 +1,7 @@
 2026-10-09  Dirk Eddelbuettel  <edd@debian.org>
 
+	* DESCRIPTION (Version, Date): Roll micro version and date
+
 	* DESCRIPTION (Description): Note eleventh wave
 	* README.md: Idem
 
