@@ -1,3 +1,9 @@
+2026-10-09  Dirk Eddelbuettel  <edd@debian.org>
+
+	* raw/blocks.R: Create man column as an ordered factor so that
+	tabulation is in chronological order of waves
+	* R/myman.R (read.mm): Idem for data reader
+
 2026-10-08  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Version 0.10.0

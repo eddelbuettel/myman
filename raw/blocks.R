@@ -37,7 +37,7 @@ set[ind, "man"] <- "Stephen Miller"
 ## Make a subset data.frame, and write it
 res <- data.frame(post = gsub("\\n", "", set$text),
                   created = set$created_at,
-                  man = as.factor(set$man))
+                  man = factor(set$man, levels=unique(set$man), ordered=TRUE))
 now <- format(Sys.time(), "%F-%H-%M")
 write.csv(res, file=paste0("allposts_", now, ".csv"), quote=TRUE, row.names=FALSE)
 

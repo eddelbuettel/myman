@@ -4,7 +4,10 @@ mm.env <- new.env()
 read.mm <- function() {
     filename <- system.file("myman", "myman.csv", package="myman")
     if (!file.exists(filename)) stop("Hm, file", filename, "is missing.", call. = FALSE)
-    data <- read.csv(filename, colClasses=c("character", "POSIXct", "factor"))
+    data <- read.csv(filename, colClasses=c("character", "POSIXct", "character"))
+    ## cannot read as an 'ordered' type but can convert after reading
+    data$man <- factor(data$man, levels=unique(data$man), ordered=TRUE)
+    data
 }
 
 ##' @title Display a Random 'my man' Skeet by Kevin Kruse
