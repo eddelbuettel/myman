@@ -1,5 +1,6 @@
 2026-10-09  Dirk Eddelbuettel  <edd@debian.org>
 
+
 	* DESCRIPTION (Version, Date): Roll micro version and date
 
 	* DESCRIPTION (Description): Note eleventh wave
@@ -7,6 +8,9 @@
 
 	* raw/myman_2026-10-09-17-41.csv: 50 new posts aimed at Thiel
 	* raw/myman_2026-10-09-17-41.rds: Idem
+	* raw/allposts_2026-10-09-17-45.csv: Now 2034 total posts
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
 
 	* raw/blocks.R: Create man column as an ordered factor so that
 	tabulation is in chronological order of waves
