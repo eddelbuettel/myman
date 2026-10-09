@@ -5,6 +5,9 @@
 	* DESCRIPTION (Description): Note eleventh wave
 	* README.md: Idem
 
+	* raw/myman_2026-10-09-17-41.csv: 50 new posts aimed at Thiel
+	* raw/myman_2026-10-09-17-41.rds: Idem
+
 	* raw/blocks.R: Create man column as an ordered factor so that
 	tabulation is in chronological order of waves
 	* R/myman.R (read.mm): Idem for data reader
