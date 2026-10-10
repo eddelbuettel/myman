@@ -12,7 +12,7 @@ myman_2026-09-13-06-55.rds|JD Vance
 myman_2026-09-17-10-34.rds|Pete Hegseth
 myman_2026-10-03-06-24.rds|Palmer Luckey
 myman_2026-10-07-08-20.rds|Elon Musk
-myman_2026-10-09-17-41.rds|Peter Thiel
+myman_2026-10-10-06-34.rds|Peter Thiel
 ]"
 men <- read.table(header=TRUE, text=text, sep="|")
 
