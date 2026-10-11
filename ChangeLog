@@ -1,8 +1,8 @@
 2026-10-10  Dirk Eddelbuettel  <edd@debian.org>
 
-	* raw/myman_2026-10-10-06-34.csv: Now 67 new posts aimed at Thiel
-	* raw/myman_2026-10-10-06-34.rds: Idem
-	* raw/allposts_2026-10-10-06-35.csv: Now 2034 total posts
+	* raw/myman_2026-10-10-21-46.csv: Now 100 new posts aimed at Thiel
+	* raw/myman_2026-10-10-21-46.rds: Idem
+	* raw/allposts_2026-10-10-21-47.csv: Now 2084 total posts
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 
