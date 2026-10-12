@@ -1,3 +1,8 @@
+2026-10-12  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Edited introductory paragraph
+	* DESCRIPTION (Description): Idem
+
 2026-10-10  Dirk Eddelbuettel  <edd@debian.org>
 
 	* raw/myman_2026-10-10-21-46.csv: Now 100 new posts aimed at Thiel
