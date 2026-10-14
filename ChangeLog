@@ -2,6 +2,8 @@
 
 	* README.md: Note beginning of wave twelve
 
+	* .github/workflows/ci.yaml (jobs): Switch to r-ci-co
+
 2026-10-12  Dirk Eddelbuettel  <edd@debian.org>
 
 	* README.md: Edited introductory paragraph

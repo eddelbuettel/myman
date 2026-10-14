@@ -6,9 +6,6 @@ on:
   push:
   pull_request:
 
-env:
-  _R_CHECK_FORCE_SUGGESTS_: "false"
-
 jobs:
   ci:
     strategy:
@@ -25,7 +22,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Setup
-        uses: eddelbuettel/github-actions/r-ci@master
+        uses: eddelbuettel/github-actions/r-ci-co@master
 
       - name: Dependencies
         run: ./run.sh install_all
