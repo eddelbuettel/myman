@@ -17,8 +17,8 @@ his][postone] featuring a certain government figure. Additional waves followed: 
 (August 12, 2026), [three][postthree] (August 17, 2026), [four][postfour] (August 27, 2026),
 [five][postfive] (August 30, 2026), [six][postsix] (September 4, 2026), [seven][postseven]
 (September 12, 2026), [eighth][posteight] (Septemer 16, 2026), [nine][postnine] (October 1, 2026),
-[ten][postten] (October 4, 2026), [eleven][posteleven] (October 9, 2026). The total now stands at
-two thousand eighty four posts.
+[ten][postten] (October 4, 2026), [eleven][posteleven] (October 9, 2026), [twelve][posttwelve]. 
+The total now stands at two thousand one hundred thirty four posts.
 
 All posts start with "My man ..." and make for excellent input to a `fortunes`-like package. So this
 small package obliges and offers a random draw each time its `myman()` function is called.  The
