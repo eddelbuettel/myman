@@ -18,6 +18,9 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
+      - name: Check out repository code
+        uses: actions/checkout@v7
+
       - name: Setup
         uses: eddelbuettel/github-actions/r-ci-co@master
 
