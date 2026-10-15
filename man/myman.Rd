@@ -35,7 +35,7 @@ It is of class \code{myman} for which an S3 print method will be invoked.
 }
 \description{
 This function displays a randomly chosen line from the included
-data set of two thousand one hundred and thirty four 'my man' skeets
+data set of two thousand one hundred and fift one 'my man' skeets
 by Kevin Kruse posted on Bluesky starting in July 2026 in replies to the initial post
 \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
 in August 2026 starting with
@@ -46,8 +46,11 @@ further series starting with, respectively,
 \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mudbzy5ksk25},
 \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3muparqtdkk2w},
 \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvdol6xu5k2s},
-\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvnmq23nw22y} and
-\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mwtx2jztkk2g}.
+\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mvnmq23nw22y},
+\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mwtx2jztkk2g},
+\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mx333hlmdc2o},
+\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mxgzqblov22r},
+\url{https://bsky.app/profile/leftistwonk.bsky.social/post/3mxsfblcuh22d}.
 
 \code{posts} is a convenience function that returns the underlying data
 as a data.frame

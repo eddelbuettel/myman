@@ -1,14 +1,28 @@
 2026-10-15  Dirk Eddelbuettel  <edd@debian.org>
 
-	* raw/myman_2026-10-15-08-05.csv: 67 posts aimed at Tracy
+	* raw/myman_2026-10-15-08-05.csv: Now 67 posts aimed at Tracy
 	* raw/myman_2026-10-15-08-05.rds: Idem
 	* raw/allposts_2026-10-15-08-06.csv: Now 2151 total posts
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 
+	* README.md: Update totals
+	* R/myman.R: Idem
+	* man/myman.Rd: Rerendered
+
 2026-10-14  Dirk Eddelbuettel  <edd@debian.org>
 
 	* README.md: Note beginning of wave twelve
+
+	* raw/myman_2026-10-14-17-15.csv: 50 posts aimed at Tracy
+	* raw/myman_2026-10-14-17-15.rds: Idem
+	* raw/allposts_2026-10-14-17-20.csv: Now 2134 total posts
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
+	* README.md: Update totals
+	* R/myman.R: Idem
+	* man/myman.Rd: Rerendered
 
 	* .github/workflows/ci.yaml (jobs): Switch to r-ci-co
 
