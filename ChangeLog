@@ -2,9 +2,9 @@
 
 	* DESCRIPTION (Version, Date): Roll micro release and date
 
-	* raw/myman_2026-10-15-08-05.csv: Now 67 posts aimed at Tracy
-	* raw/myman_2026-10-15-08-05.rds: Idem
-	* raw/allposts_2026-10-15-08-06.csv: Now 2151 total posts
+	* raw/myman_2026-10-15-16-50.csv: Now 85 posts aimed at Tracy
+	* raw/myman_2026-10-15-16-50.rds: Idem
+	* raw/allposts_2026-10-15-16-51.csv: Now 2169 total posts
 	* inst/myman/myman.csv: Idem
 	* raw/blocks.R: Updated processor
 

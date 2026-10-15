@@ -35,7 +35,7 @@ It is of class \code{myman} for which an S3 print method will be invoked.
 }
 \description{
 This function displays a randomly chosen line from the included
-data set of two thousand one hundred and fift one 'my man' skeets
+data set of two thousand one hundred and sixty nine one 'my man' skeets
 by Kevin Kruse posted on Bluesky starting in July 2026 in replies to the initial post
 \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
 in August 2026 starting with
