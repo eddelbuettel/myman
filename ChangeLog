@@ -1,3 +1,9 @@
+2026-10-18  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Version 0.12.0
+
+	* DESCRIPTION (Description): Fix one-char typo
+
 2026-10-15  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Roll micro release and date

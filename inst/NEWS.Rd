@@ -3,6 +3,14 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/myman/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/myman/issues/#1}{##1}}
 
+\section{Changes in version 0.12.0 (2026-10-18)}{
+  \itemize{
+    \item New waves eleven (100 posts) and twelve (100 posts) made last week;
+    total is now 2184 posts
+    \item Small update to continuous integration
+  }
+}
+
 \section{Changes in version 0.10.0 (2026-10-08)}{
   \itemize{
     \item New waves nine (100 posts) and ten (190 posts) made last week;
