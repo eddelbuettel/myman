@@ -1,3 +1,15 @@
+2026-11-01  Dirk Eddelbuettel  <edd@debian.org>
+
+	* raw/myman_2026-11-01-12-45.csv: Now 100 posts aimed at Johnson
+	* raw/myman_2026-11-01-12-45.rds: Idem
+	* raw/allposts_2026-11-01-20-47.csv: Now 2284 total posts
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
+	* README.md: Update totals
+	* R/myman.R: Idem
+	* man/myman.Rd: Rerendered
+
 2026-10-18  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Version 0.12.0
