@@ -14,6 +14,7 @@ myman_2026-10-03-06-24.rds|Palmer Luckey
 myman_2026-10-07-08-20.rds|Elon Musk
 myman_2026-10-10-21-46.rds|Peter Thiel
 myman_2026-10-15-20-39.rds|Michael Tracy
+myman_2026-11-01-12-45.rds|Mike Johnson
 ]"
 men <- read.table(header=TRUE, text=text, sep="|")
 
