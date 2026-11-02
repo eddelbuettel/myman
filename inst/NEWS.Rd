@@ -3,6 +3,13 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/myman/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/myman/issues/#1}{##1}}
 
+
+\section{Changes in version 0.13.0 (2026-11-02)}{
+  \itemize{
+    \item New wave thirteen (100 posts); total is now 2284 posts
+  }
+}
+
 \section{Changes in version 0.12.0 (2026-10-18)}{
   \itemize{
     \item New waves eleven (100 posts) and twelve (100 posts) made last week;
