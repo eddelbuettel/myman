@@ -3,6 +3,12 @@
 	* README.md: Mark beginning of wave fifteen
 	* R/myman.R (myman): Idem
 
+	* raw/myman_2026-11-14-17-37.csv: 49 new posts aimed at Duffy
+	* raw/myman_2026-11-14-14-37.rds: Idem
+	* raw/allposts_2026-11-14-14-38.csv: Now 2358 total posts
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
 2026-11-13  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): [GitHub Only] Release 0.14.0
