@@ -30,7 +30,8 @@ read.mm <- function() {
 ##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mxgzqblov22r},
 ##' \url{https://bsky.app/profile/leftistwonk.bsky.social/post/3mxsfblcuh22d},
 ##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mz6wwpjpmc2j},
-##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mzyicpp43c2m}.
+##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mzyicpp43c2m},
+##' \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3n2cb5cvnrs2g}.
 ##'
 ##' \code{posts} is a convenience function that returns the underlying data
 ##' as a data.frame
