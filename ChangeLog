@@ -1,3 +1,11 @@
+2026-11-15  Dirk Eddelbuettel  <edd@debian.org>
+
+	* raw/myman_2026-11-14-18-47.csv: Now 87 posts aimed at Duffy
+	* raw/myman_2026-11-14-18-47.rds: Idem
+	* raw/allposts_2026-11-14-18-48.csv: Now 2396 total posts
+	* inst/myman/myman.csv: Idem
+	* raw/blocks.R: Updated processor
+
 2026-11-14  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Roll micro release and date
