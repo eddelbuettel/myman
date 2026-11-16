@@ -16,7 +16,7 @@ myman_2026-10-10-21-46.rds|Peter Thiel
 myman_2026-10-15-20-39.rds|Michael Tracy
 myman_2026-11-01-12-45.rds|Mike Johnson
 myman_2026-11-11-13-09.rds|Todd Blanche
-myman_2026-11-15-10-31.rds|Sean Duffy
+myman_2026-11-15-18-08.rds|Sean Duffy
 ]"
 men <- read.table(header=TRUE, text=text, sep="|")
 
