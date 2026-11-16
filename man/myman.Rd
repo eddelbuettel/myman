@@ -35,7 +35,7 @@ It is of class \code{myman} for which an S3 print method will be invoked.
 }
 \description{
 This function displays a randomly chosen line from the included
-data set of two thousand three hundred and nine 'my man' skeets
+data set of two thousand four hundred and nine 'my man' skeets
 by Kevin Kruse posted on Bluesky starting in July 2026 in replies to the initial post
 \url{https://bsky.app/profile/did:plc:cnpe7qvcyjrhm6w7w7e4atur/post/3mqum4mxsuk2g},
 in August 2026 starting with
@@ -52,7 +52,8 @@ further series starting with, respectively,
 \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mxgzqblov22r},
 \url{https://bsky.app/profile/leftistwonk.bsky.social/post/3mxsfblcuh22d},
 \url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mz6wwpjpmc2j},
-\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mzyicpp43c2m}.
+\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3mzyicpp43c2m},
+\url{https://bsky.app/profile/kevinmkruse.bsky.social/post/3n2cb5cvnrs2g}.
 
 \code{posts} is a convenience function that returns the underlying data
 as a data.frame
